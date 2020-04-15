@@ -43,3 +43,6 @@ Se cere:
 a) Sa se gaseasca o descompunere  ρ a lui R astfel incat fiecare schema a lui sa respecte cerintele FNCB (Forma Normala Boyce Codd). Se va explica pe scurt fiecare pas al algoritmului de descompunere si se va face demonstratia ca toate schemele din  ρ respecta cerintele FNCB.
 
 b) Sa se verifice daca descompunerea  ρ = (AB, BCD, AEF, CDE) a lui R, cu multimea de dependente functionale F, are proprietatea de jonctiune fara pierdere.
+
+:cherry_blossom:
+plecand cu A→B  rezulta r=(AB, ACDEF) in FNCB, deoarece CD -> AEF (aplicand reguli si axiome) tinand cont de dependente, in tabel se  obtin  liniile BCD si CDE doar cu a-uri,  deci este j.f.p
